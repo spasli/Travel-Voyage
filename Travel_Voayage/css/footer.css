@@ -1,0 +1,137 @@
+footer{
+	position: relative;
+	margin-top: 100px;
+	width: 100%;
+	background-color: #2c3e50;
+	height: 600px;
+}
+.footr_navs{
+	width: 1240px;
+	display: flex; 
+	margin: auto;
+	padding-top: 50px;
+	justify-content: space-between;
+}
+.newsletter , .lattest_news , .tags , .address{
+	width: 23%;
+	height: 300px;
+}
+.letter_name , .new_name , .tag_name , .adress_name{
+	color: #1dd2af;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.letter_text{
+	color:white;
+	margin-bottom: 15px;
+}
+.letter_inp{
+	display: flex;
+	justify-content: space-between;
+}
+.letter_inp > input{
+	border: 1px solid #2c3e50;
+	width: 60%;
+	height: 14px;
+	padding: 10px;
+	color: #626262;
+}
+.letter_button{
+	cursor: pointer;
+	color: white;
+	padding:10px;
+	width: 20%;
+	height: 14px;
+	text-align: center;
+	background-color: #1dd2af;
+}
+.new_block{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+.new_images{
+	border: 1px solid white;
+	height: 27px;
+	widows: 41px;
+	padding:6px;
+}
+.news_text{
+	width: 80%;
+	height: 50px;
+}
+.news_text1{
+	margin-bottom: 5px;
+	color: white;
+}
+.news_text2{
+	color: #1dd2af;
+}
+.tags_ex{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.line{
+	display: flex;
+	margin-bottom: 5px;
+}
+.tags_ins{
+	cursor: pointer;
+	padding: 10px;
+	margin-right: 5px;
+	border: 1px solid white;
+	color: white;
+}
+.tags_ins:hover {
+	background-color:  #1dd2af;
+}
+.address{
+	color: white;
+}
+.address > div{
+	margin-bottom: 10px;
+}
+.foot_img{
+	margin-top: 20px;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+.line_cross{
+	width: 100%;
+	height: 1px;
+	background-color: #394c5f;
+
+}
+.nav_foot{
+	margin: auto;
+	margin-top: 50px;
+	justify-content: space-between;
+	width: 45%;
+	display: flex;
+	color: white;
+}
+.nav_foot_ins{
+	cursor: pointer;
+}
+.nav_foot_ins:hover {
+	color: #1dd2af
+}
+
+.rights{
+	color: #9dafc0;
+	width: 100%; 
+	margin-top: 20px;
+	text-align: center;
+}
+a{
+	position: absolute; 
+	bottom: 0;
+	left: calc(50% - 80px)
+}
+.arrow{
+	position: absolute;
+	bottom: 13px;
+	left: calc(50% + 4px)
+}
